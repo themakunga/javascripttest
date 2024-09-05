@@ -1,0 +1,87 @@
+---
+allowCompoundWords: true
+dictionaries:
+  - en_US
+  - companies
+  - softwareTerms
+  - misc
+  - lorem-ipsum
+  - typescript
+  - node
+  - bash
+  - npm
+ignorePaths:
+  - '**/node_modules/**'
+  - '**/vscode-extension/**'
+  - '**/.git/**'
+  - '.vscode'
+  - megalinter
+  - '.gitignore'
+  - '.dockerignore'
+  - pnpm-lock.yaml
+  - report
+  - dist/**
+  - '**/coverage/**'
+language: en,es
+languageSettings:
+  - ignoreRegExpList:
+      - '/^#.*/gm'
+    languageId: commit-msg
+noConfigSearch: true
+version: '0.2'
+words:
+  - Chakroun
+  - Contraseña
+  - Ekokt
+  - Kamil
+  - Myśliwiec
+  - Nico
+  - Posgre
+  - Suncin
+  - Typeorm
+  - bierner
+  - busa
+  - cace
+  - cachified
+  - cceb
+  - codeql
+  - cond
+  - contraseña
+  - cweijan
+  - dhoeric
+  - distroless
+  - dowuble
+  - eitsupi
+  - firsttris
+  - flickr
+  - haveibeenpwned
+  - haya
+  - hbenl
+  - hibp
+  - httpie
+  - huskyrc
+  - icrawl
+  - isready
+  - mypy
+  - nestjs
+  - oneof
+  - oxsecurity
+  - pactum
+  - pgweb
+  - pnpm
+  - postgres
+  - rangav
+  - rustc
+  - sheeps
+  - slavcodev
+  - sosedoff
+  - sslmode
+  - stefanzweifel
+  - trivy
+  - ttypescript
+  - txtgen
+  - typeorm
+  - usuario
+  - venv
+  - wmaurer
+  - xabikos
