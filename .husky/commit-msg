@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -n "$CI" ]; then
+  exit 0
+fi
+
+COMMIT_MSG_FILE=$1
+
+pnpm exec commitlint --edit "$COMMIT_MSG_FILE"
+cat "$COMMIT_MSG_FILE" | pnpm exec cspell lint --no-summary --no-progress --language-id commit-msg stdin
